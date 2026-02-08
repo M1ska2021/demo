@@ -1,4 +1,4 @@
-# Cartoon API — Spring Boot REST Project
+# Cartoon API Project
 
 ## Project Description
 This project is a RESTful API for managing cartoons, implemented using:
