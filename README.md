@@ -2,17 +2,17 @@
 
 ## Project Description
 This project is a RESTful API for managing cartoons, implemented using:
-- Spring Boot  
-- Spring Data JPA  
-- PostgreSQL  
-- Maven  
+ Spring Boot  
+ Spring Data JPA  
+ PostgreSQL  
+ Maven  
 
 The application supports full CRUD operations:
-- Create a cartoon  
-- Get all cartoons  
-- Get a cartoon by ID  
-- Update a cartoon  
-- Delete a cartoon  
+ Create a cartoon  
+ Get all cartoons  
+ Get a cartoon by ID  
+ Update a cartoon  
+ Delete a cartoon  
 
 ## Project Structure
 controller  to REST controllers  
@@ -77,14 +77,14 @@ http://localhost:8080
 
 ## API Testing
 You can test the API using:
-- Postman  
-- Hoppscotch  
-- curl  
-- Browser (for GET requests)  
+ Postman  
+ Hoppscotch  
+ curl  
+ Browser (for GET requests)  
 
 ## Implemented Principles
-- SOLID principles  
-- Layered architecture  
-- RESTful API design  
-- JPA ORM  
-- Factory design pattern  
+ SOLID principles  
+ Layered architecture  
+ RESTful API design  
+ JPA ORM  
+ Factory design pattern  
