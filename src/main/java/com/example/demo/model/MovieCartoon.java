@@ -1,0 +1,38 @@
+package com.example.demo.model;
+
+public class MovieCartoon extends Cartoon {
+
+    private double duration;
+
+    public MovieCartoon(int id,
+                        String name,
+                        String studio,
+                        double duration) {
+
+        super(name, 1, studio);
+
+        if (duration <= 0) {
+            throw new IllegalArgumentException("Duration supposed to be more than 0");
+        }
+
+        this.duration = duration;
+    }
+    public double getDuration() {
+        return duration;
+    }
+    public void setDuration(double duration) {
+        if (duration <= 0) {
+            throw new IllegalArgumentException("Duration have to be more than 0");
+        }
+        this.duration = duration;
+    }
+    public String toString() {
+        return super.toString() + " / duration: " + duration + " min";
+    }
+    public String getType() {
+        return "Movie";
+    }
+    public String getDetails() {
+        return "Duration: " + duration;
+    }
+}

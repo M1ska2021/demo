@@ -1,0 +1,7 @@
+package com.example.demo.exception;
+
+public class DuplicateResourceException extends InvalidInputException {
+    public DuplicateResourceException(String message) {
+        super(message);
+    }
+}
